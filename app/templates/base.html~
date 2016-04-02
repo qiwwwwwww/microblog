@@ -1,6 +1,6 @@
 <html>
   <head>
-    {% if title%}
+    {% if title %}
     <title>{{title} - microblog</title>
     {% else %}
     <title>microblog</title>
