@@ -29,3 +29,7 @@ ADMINS = ['qwictest@gmail.com']
 
 # pagination
 POSTS_PER_PAGE = 3
+
+# Configuration for Flask-WhooshAlchemy
+WHOOSH_BASE = os.path.join(basedir, 'search.db')
+MAX_SEARCH_RESULTS = 50
