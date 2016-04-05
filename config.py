@@ -26,3 +26,6 @@ MAIL_PASSWORD = None
 
 # administrator list
 ADMINS = ['qwictest@gmail.com']
+
+# pagination
+POSTS_PER_PAGE = 3
